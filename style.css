@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+form {
+  margin-left: 10%;
+  margin-top: 10%;
+  
+  width: 60px;
+}
+fieldset {
+  margin-bottom: 10px;
+}
+.button {
+  background-color: lightgrey;
+  width: 80px;
+  
+}
+.button p {
+  
+  margin: 5px;
+}
+.otvet {
+  width: 160px;
+  height: 120px;
+  margin-left: 10%;
+  margin-top: 10%;
+  background-color: lightgrey;
+  display: none;
+}
+.otvet1 {
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+}
+.ok {
+  width: 50px;
+  height: 20px;
+  margin-left: 100px;
+  margin-bottom: 5px;
+  background-color: grey;  
+}
