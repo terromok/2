@@ -18,7 +18,7 @@ var stolbi = ["A", "B", "C", "D", "E", "F", "G", "H"];
           });
         $('.otvet1').append($p);
       }
-      if (stlb-2>=0 && str+1<8) {
+      if (stlb-2>=0 && str<8) {
         var $p1 = $('<p />', {
           text: `${stolbi[stlb-2]}${stroki[str]},`,
           class: 'rezult' 
@@ -46,7 +46,7 @@ var stolbi = ["A", "B", "C", "D", "E", "F", "G", "H"];
           });
         $('.otvet1').append($p);
       }
-      if (stlb+2<8 && str+1<8) {
+      if (stlb+2<8 && str<8) {
         var $p1 = $('<p />', {
           text: `${stolbi[stlb+2]}${stroki[str]},`,
           class: 'rezult' 
